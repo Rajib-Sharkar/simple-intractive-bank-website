@@ -17,10 +17,11 @@ document.getElementById('btn-submit').addEventListener('click',function() {
     // DANGER:DO NOT verify email password  on the client side  
     // step 04:verify email and password
     if (email ==='rajibsharkar22222@gmail.com' && password==='secret'){
-        console.log('valid password')
+        // console.log('valid password')
+        window.location.href='bank.html'
     }
     else{
-        console.log('invalid password')
+        atert('invalid password')
     }
 
-})
+});
